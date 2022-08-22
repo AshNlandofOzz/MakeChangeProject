@@ -8,3 +8,9 @@ While this project does meet all the qualifications, there is a bug that I have 
 I am sure this is being caused as the information is passed from a Double to and Int so I can isolate the denominations. That being said, I am unsure as of right now how to fix this bug, but plan on investigating further through the weekend to try to find a solution, though I am unsure at my level of knowledge that I will find a better solution by the assignment due date so I am pushing my current work to ensure I meet deadline.
 
 Thank you.
+
+#Update
+
+After looking into the bug, it turns out the issue happens outside my method. I did some google research and found a video explaining how to use printf() to cut off the extra numbers after the change. uploading that version this morning. Thank you.
+
+ 

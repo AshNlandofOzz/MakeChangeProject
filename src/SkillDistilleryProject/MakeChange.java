@@ -10,7 +10,9 @@ public class MakeChange {
 		double price = scan.nextDouble();
 		System.out.println("Enter the amount paid: ");
 		double amount= scan.nextDouble();
-		System.out.println("Total change = " + (amount - price));
+		double change = amount - price;
+		System.out.printf("You get $%,.2f change", change);
+		System.out.println("");
 		changeCalc(price, amount);	
 				
 		
@@ -51,10 +53,10 @@ public class MakeChange {
 				 System.out.println((int)(change/.01) + ": Penny" );
 				 change = change % .05;
 			 }  
-			 else if (change == 0) {
+			 if (change == 0) {
 				 System.out.println("No change due. ");
 			 }
-			 else {
+			 if (change < 0){
 				 System.out.println("System error. Not enough money tendered.");
 			 }
 
